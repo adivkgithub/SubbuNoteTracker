@@ -5,13 +5,13 @@ var port  	 = process.env.PORT || 2080; 				// set the port
 var morgan = require('morgan'); 		// log requests to the console (express4)
 var bodyParser = require('body-parser'); 	// pull information from HTML POST (express4)
 
-app.use(function(req, res, next){
+/*app.use(function(req, res, next){
      if(req.headers['x-forwarded-proto'] === 'http'){
         next();
      } else {
         res.redirect('http://' + req.hostname + req.url);
      }
-});
+});*/
 
 app.use(express.static(__dirname + '/public')); 				// set the static files location /public/img will be /img for users
 app.use(morgan('dev')); 										// log every request to the console
