@@ -24540,7 +24540,7 @@
 	                        { className: "navbar navbar-default", role: "navigation" },
 	                        React.createElement(
 	                              "div",
-	                              { className: "col-sm-7 col-sm-offset-2", style: { marginTop: 15 } },
+	                              { className: "col-sm-7 col-sm-offset-2", style: { marginTop: 17 } },
 	                              "MENU"
 	                        )
 	                  ),
